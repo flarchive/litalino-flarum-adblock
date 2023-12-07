@@ -1,0 +1,86 @@
+{
+  "name": "litalino/flarum-adblock",
+  "description": "Add Adblock to Flarum",
+  "keywords": [
+    "flarum",
+    "flarum extension",
+    "extiverse",
+    "adblock"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.8.0"
+  },
+  "authors": [
+    {
+      "name": "Litalino",
+      "email": "info@khatvongsong.vn",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/litalino/flarum-adblock/issues",
+    "source": "https://github.com/litalino/flarum-adblock",
+    "forum": "https://discuss.flarum.org/d/33757-adblock-extension"
+  },
+  "autoload": {
+    "psr-4": {
+      "Litalino\\Adblock\\": "src/"
+    }
+  },
+  "homepage": "https://khatvongsong.vn",
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "AdBlock",
+      "category": "",
+      "icon": {
+        "name": "fas fa-ad",
+        "backgroundColor": "red",
+        "color": "white"
+      }
+    },
+    "flarum-cli": {
+      "modules": {
+        "admin": true,
+        "forum": true,
+        "js": true,
+        "jsCommon": false,
+        "css": true,
+        "locale": true,
+        "gitConf": true,
+        "githubActions": true,
+        "prettier": true,
+        "typescript": false,
+        "bundlewatch": false,
+        "backendTesting": false,
+        "editorConfig": true,
+        "styleci": true
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../*/*"
+    }
+  ],
+  "require-dev": {
+    "flarum/phpstan": "*"
+  },
+  "scripts": {
+    "analyse:phpstan": "phpstan analyse",
+    "clear-cache:phpstan": "phpstan clear-result-cache"
+  },
+  "scripts-descriptions": {
+    "analyse:phpstan": "Run static analysis"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
