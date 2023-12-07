@@ -1,0 +1,30 @@
+adblock:
+  admin:
+    adblock-div: Thêm thẻ biểu ngữ nơi mã html xuất hiện
+    adblock-div-placeholder: Ex '#content, .App-content, .IndexPage, container'
+    adblock-img: Img
+    adblock-img-placeholder: https://domain/picture.png
+    adblock-url: Url
+    adblock-url-placeholder: https://domain
+    adblock-alt: Alt
+    adblock-alt-placeholder: Thuộc tính Alt trong thẻ img
+    adblock-action: Chọn thông báo
+    adblock-action-help: Ở đây bạn có thể thay đổi,mặc định notice 'message, backup'
+    adblock-action-notice: notice
+    adblock-action-message: message
+    adblock-action-backup: backup
+    adblock-supportUsTitle: Support Us Title
+    adblock-supportUsTitle-placeholder: Làm ơn hỗ trợ chúng tôi
+    adblock-supportUsMessage: Support Us Message
+    adblock-supportUsMessage-placeholder: Vui lòng hỗ trợ chúng tôi bằng cách tắt AdBlocker trên trang web của chúng tôi.
+    adblock-supportRedirectUrl: Support Us Link
+    adblock-supportRedirectUrl-placeholder: Dán URL hợp lệ vào đây hoặc để trống
+    adblock-notice-element: Thêm Tag nơi hiển thị thông báo
+    adblock-notice-element-placeholder: Ex '#content, .App-content, .IndexPage, container'
+    adblock-notice-method: Style notice
+    adblock-notice-method-help: Tại đây bạn có thể thay đổi kiểu Thông báo
+    adblock-notice-content: Nội dung thông báo
+    adblock-notice-content-help: Ở đây bạn có thể thay đổi nội dung
+    adblock-notice-content-placeholder: CHÀO. Bạn có thể vui lòng giúp chúng tôi không?\n\nTôi biết quảng cáo đôi khi quá khó chịu và bạn muốn sử dụng Adblock. Nhưng hãy ủng hộ chúng tôi bằng cách thêm KhatVongSong vào danh sách trắng. Nó sẽ giúp chúng tôi sử dụng KhatVongSong miễn phí.\n\nCảm ơn sự giúp đỡ của bạn!
+    adblock-notice-content-sup: Hỗ trợ nội dung tin nhắn văn bản nhỏ ở trên
+    adblock-notice-content-sup-placeholder: Nhấn × để tắt thông báo và hiển thị nội dung.
